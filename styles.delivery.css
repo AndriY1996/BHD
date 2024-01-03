@@ -1,0 +1,55 @@
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* Білий фон для секцій */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+dt, dd {
+    margin: 5px 0;
+}
+
+.company__headline{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px; /* 150% */
+}
+
+#welcome-section {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+    
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.headline1 {
+    color: #1F1F1F;
+    font-size: 28px;
+    font-weight: 600px;
+    line-height: 40px;
+    padding-top: 32px;
+    padding-bottom: 23px;
+    margin: 0 auto 24px;
+}
